@@ -6,10 +6,12 @@
         "max": 100}
     },
     "URL": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
     },
     "userName": {
-      "string": {}
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
     },
     "noOfLikes": {
       "int": {
