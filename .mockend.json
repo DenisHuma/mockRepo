@@ -2,6 +2,7 @@
   "Post": {
     "postId": {
       "int": {
+        "unique" :true,
       "min": 1,
         "max": 100}
     },
