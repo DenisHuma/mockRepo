@@ -11,7 +11,7 @@
     "userName": {
       "loremWords": {
         "minLength": 5,
-        "maxLength": 20
+        "maxLength": 20}
     },
     "noOfLikes": {
       "int": {
