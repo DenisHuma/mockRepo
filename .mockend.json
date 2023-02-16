@@ -1,0 +1,16 @@
+{
+"Post": {
+    "postId": {
+      "int": {}
+    },
+    "URL": {
+      "regexp": "https://…" 
+    },
+    "userName":{
+      "string":{}
+    },
+    "noOfLikes"{
+    "int": {}
+    }
+ }
+}
