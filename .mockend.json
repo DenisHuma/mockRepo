@@ -23,4 +23,29 @@
       }
     }
   }
+  
+  "Poster": {
+    "postId": {
+      "int": {
+      "min": 1,
+        "max": 100}
+    },
+    "postURL": {
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "avatarURL":{
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    },
+    "userName": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20}
+    },
+    "noOfLikes": {
+      "int": {
+       "min": 0,
+        "max": 100
+      }
+    }
+  }
 }
